@@ -1,0 +1,44 @@
+source=~/.config/hypr/rose-pine-dawn.conf
+
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+! special
+*.foreground:   $text
+*.background:   $text
+
+! black
+*.color0:       $text
+*.color8:       $text
+
+! red
+*.color1:       $love
+*.color9:       $love
+
+! green
+*.color2:       $foam  (bg_green)
+*.color10:      $foam
+
+! yellow
+*.color3:       $gold  (yellow)
+*.color11:      $gold
+
+! blue
+*.color4:       $pine  (aqua)
+*.color12:      $pine
+
+! magenta
+*.color5:       $iris  (bg_red)
+*.color13:      $iris
+
+! cyan
+*.color6:       $foam  (green)
+*.color14:      $foam
+
+! white
+*color7:        $text
+*color15:       $text
